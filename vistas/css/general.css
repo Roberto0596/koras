@@ -1,0 +1,55 @@
+.login-page #back
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/plantilla/fondo.jpg);
+    background-size: cover;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.capitalize
+{
+    text-transform: capitalize;
+}
+
+button
+{
+    font-family: sans-serif;
+}
+
+.navbar-custom-menu
+{
+	float: right !important;
+}
+
+@media (min-width: 768px){}
+	.navbar-nav {
+	    float: left;
+	    margin: 0;
+	}
+}
+
+.navbar-nav {
+    margin: 7.5px -15px;
+}
+
+.nav {
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+    list-style: none !important;
+}
+
+.generic
+{
+	margin-top: 0.5em;
+}
+
+.generic a
+{
+	color: black;
+    font-size: 18px;
+}
